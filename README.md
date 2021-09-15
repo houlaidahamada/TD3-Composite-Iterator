@@ -2,11 +2,8 @@
 
 ### IUT d’Aix-Marseille – Département Informatique Aix-en-Provence
 
-# TP2 (séance 4) : Patrons de conception (Composite, Itérateur)
+# TD2 : Patrons de conception Composite et Itérateur
 
-
-* Le support du cours est disponible sur l'ENT
-* Le [forum Piazza](https://piazza.com/univ-amu.fr/fall2017/m3105/home) de ce cours pour poser vos questions
 * Pour les étudiants du groupe 3 : créez votre dépôt classroom en cliquant sur le lien suivant : https://classroom.github.com/a/cONWIuz5
 
 ### Instructions
