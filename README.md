@@ -4,7 +4,8 @@
 
 # TD2 : Patrons de conception Composite et Itérateur
 
-* Pour les **étudiants du groupe 3** : créez votre dépôt classroom en cliquant sur le lien suivant : https://classroom.github.com/a/lyxedq5j
+* Pour les **étudiants du groupe 3** : créez votre dépôt classroom en cliquant sur le lien suivant : https://classroom.github.com/a/uv9UIMNa
+* Pour les autres étudiants : https://classroom.github.com/a/lyxedq5j
 
 ### Instructions
 * Pour chaque exercice vous allez travailler dans un package différent.
