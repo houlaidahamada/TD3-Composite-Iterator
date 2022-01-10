@@ -5,19 +5,10 @@ public class Batterie extends Velo{
 	private double prix;
 	private String description;
 	
-	Batterie(int num, double prix){
-		super();
-		numero = num;
-		this.prix = prix;
-	}
-	
-	@Override
-	public void setDescription(String description) {
-		this.description = description;
-	}
-
-	public int getNum() {
-		return numero;
+	Batterie(Builder builder){
+		this.numero = builder.numero;
+		this.prix = builder.prix;
+		this.description = builder.description;
 	}
 	
 
@@ -25,9 +16,26 @@ public class Batterie extends Velo{
 		return description;
 	}
 	
-	public double getPrix()
-	{
-		return prix;
+	public static class Builder{	
+	
+		private int numero;
+		private double prix;
+		private String description;
+		
+		Builder(int num, double prix){
+			this.numero = num;
+			this.prix = prix;
+		}
+
+		public Builder setDescription(String description) {
+			this.description = description;
+			return this;
+		}
+		
+		public Batterie build() {
+			return new Batterie(this);
+		}
 	}
+
 	
 }
